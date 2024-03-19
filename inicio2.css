@@ -1,0 +1,55 @@
+#inicio {
+    text-align: center;
+}
+
+#banner {
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+#banner img {
+    width: 100%;
+    display: none;
+}
+
+#banner img.active {
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+#texto {
+    margin: 20px auto;
+    width: 80%;
+}
+
+#botones {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
